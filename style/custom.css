@@ -474,7 +474,7 @@ a.btn:active,
 
 .action-blocks h2 {
 	color: #fff;
-	font-weight: 300;
+	font-weight: normal;
 	background: #A12122;
 	background: rgba(201,65,18,.75);
 	background: #A12122;
@@ -503,7 +503,7 @@ a.btn:active,
 
 #page-wrap {
 	position: relative;
-	margin: 1em 0 2em;
+	margin: 1em 0;
 }
 
 #page {
@@ -554,11 +554,15 @@ a.btn:active,
     padding-top: 0;
     position: relative;
     overflow: visible;
-    margin-bottom: 1.3em;
+    margin-bottom: 1em;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
 	border: none;
+}
+
+#block-region-side-pre .block:last-of-type {
+	margin-bottom: 0;
 }
 
 .block .header .title h2 {
@@ -1115,10 +1119,6 @@ div.backup-section+form,
 	
 	.action-blocks .block {
 		margin-bottom: 1em;
-	}
-
-	#page {
-	    padding: 0 1em;
 	}
 
 	.social-links li {

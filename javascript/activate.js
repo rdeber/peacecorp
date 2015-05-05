@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$( ".close" ).click(function() {
-	  $( ".alert-box" ).hide( "slow" );
-	});
+    $( ".close" ).click(function() {
+        $( ".alert-box" ).hide( "slow" );
+    });
 });

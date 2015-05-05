@@ -22,7 +22,7 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2014051200;
+$plugin->version   = 2015050500;
 $plugin->requires  = 2014050800;
 $plugin->release   = '2.7.1';
 $plugin->component = 'theme_peacecorps';

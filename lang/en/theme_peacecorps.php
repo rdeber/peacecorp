@@ -44,3 +44,15 @@ $string['region-frontpage-three'] = 'frontpage-three';
 $string['region-footer-one'] = 'footer-one';
 $string['region-footer-two'] = 'footer-two';
 $string['region-footer-three'] = 'footer-three';
+
+$string['logo'] = 'Logo';
+$string['logodesc'] = 'The logo used in the header area.';
+
+$string['headertext'] = 'Header Text';
+$string['headertextdesc'] = 'The header text that appears next to the logo.';
+
+$string['bannerimage'] = 'Banner Image';
+$string['bannerimagedesc'] = 'The main banner image in the header.';
+
+
+

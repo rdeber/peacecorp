@@ -7,8 +7,8 @@ dl,
 input,
 textarea {
     -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
+     -webkit-font-smoothing: antialiased;
+             font-smoothing: antialiased;
 }
 
 body {
@@ -327,8 +327,8 @@ a.btn:active,
     background: rgba(35,31,32,.8);
     border: none;
     -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
     margin: 0;
     width: auto;
 }
@@ -376,8 +376,8 @@ a.btn:active,
 
 .dropdown-submenu>.dropdown-menu {
     -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
 }
 
 .navbar-text {
@@ -532,8 +532,8 @@ a.btn:active,
     padding: 0;
     background: transparent;
     -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
 }
 
 .breadcrumb a,
@@ -549,15 +549,15 @@ a.btn:active,
 .block {
     background-color: #fff;
     -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
     padding-top: 0;
     position: relative;
     overflow: visible;
     margin-bottom: 1em;
     -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
     border: none;
 }
 
@@ -574,8 +574,8 @@ a.btn:active,
     padding: .7em 1em;
     background: #A12122;
     -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
     border: none;
 }
 
@@ -627,9 +627,9 @@ a.btn:active,
 }
 
 .moodle-dialogue-base .moodle-dialogue-wrap {
-    -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
-    border-radius: 0px;
+       -moz-border-radius: 0px;
+            border-radius: 0px;
 }
 
 .moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd,
@@ -640,9 +640,9 @@ a.btn:active,
     background-image: none;
     background: #222;
     text-shadow: none !important;
-    -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
-    border-radius: 0px;
+       -moz-border-radius: 0px;
+            border-radius: 0px;
 }
 
 .moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd h1,
@@ -686,8 +686,8 @@ div.backup-section+form,
     background-color: #fff;
     border: none;
     -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
 }
 
 .courses .coursebox.even {
@@ -718,15 +718,15 @@ div.backup-section+form,
     float: left;
     margin: 0 25px 8px 0;
     background: #231f20;
-    -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
     border: none;
     border-top: 2px solid rgba(255,255,255,.2);
     border-bottom: 3px solid rgba(0,0,0,.5);
-    -moz-box-shadow: none;
     -webkit-box-shadow: none;
-    box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
 }
 
 .onetopic ul.nav-tabs li a {
@@ -851,11 +851,11 @@ div.backup-section+form,
     margin-bottom: 0;
     background: transparent;
     -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
     -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
+       -moz-border-radius: 0px;
+            border-radius: 0px;
     border: none;
 }
 
@@ -891,7 +891,7 @@ div.backup-section+form,
     margin-right: .2em;
     padding: .5em;
     -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
 }
 
 .fa-facebook {
@@ -912,9 +912,6 @@ div.backup-section+form,
 .social-links li a i:hover {
     opacity: .7;
 }
-
-
-
 
 #page-footer2 {
     font-size: .8em;
@@ -1141,8 +1138,8 @@ div.backup-section+form,
         float: left;
         margin-left: 0;
         -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
     }
 
     .row-fluid .span8.pull-right,

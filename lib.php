@@ -20,6 +20,11 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+
+/**
+ * Set default value for headertext.
+ * @param stdClass $page
+ */
 function theme_peacecorps_page_init(moodle_page $page) {
     // Header text defaults.
     if (empty($page->theme->settings->headertext)) {
@@ -28,6 +33,12 @@ function theme_peacecorps_page_init(moodle_page $page) {
     $page->requires->jquery();
 }
 
+/**
+ * Replace banner image setting in CSS file.
+ * @param string $css
+ * @param stdClass $theme
+ * @return string $css
+ */
 function theme_peacecorps_process_css($css, $theme) {
     // Set the background image for the logo.
     $themefiles = theme_peacecorps_setting_files($theme->settings);
@@ -42,6 +53,7 @@ function theme_peacecorps_process_css($css, $theme) {
 /**
  * Finds files in theme settings and returns moodle urls for those files.
  *
+ * @param stdClass $settings
  * @return array Moodle urls for theme files
  */
 function theme_peacecorps_setting_files($settings) {

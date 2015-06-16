@@ -97,6 +97,5 @@ $THEME->layouts = array(
 );
 
 $THEME->javascripts_footer = array(
-    'lean-slider',
     'activate'
 );
